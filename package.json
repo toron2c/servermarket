@@ -1,0 +1,22 @@
+{
+  "name": "server_market",
+  "version": "1.0.0",
+  "description": "server for market",
+  "main": "index.js",
+  "author": "toron2c",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
+  }
+}
